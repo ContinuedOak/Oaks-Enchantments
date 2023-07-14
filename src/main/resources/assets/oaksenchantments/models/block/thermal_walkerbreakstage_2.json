@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "up": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "north": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "east": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "south": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "west": "oaksenchantments:blocks/thermal_walker_breakstage2",
+    "particle": "oaksenchantments:blocks/thermal_walker_breakstage2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="oaksenchantments"
+version="0.3.0"
+displayName="OaksEnchantments"
+credits="ElementHype, Telepathicgrunt, 1Kazutho"
+displayURL="https://oakmods.com"
+logoFile="logo.png"
+authors="Continued Oak"
+description="Oaks Enchantments is a lightweight enchantment expanding mod, with the goal of adding new enchantments to Minecraft.  Currently adding 11+ enchantments that will change the way you play Minecraft."
+
+[[dependencies.oaksenchantments]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

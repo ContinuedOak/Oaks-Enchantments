@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oaksenchantments:blocks/barrier",
+    "up": "oaksenchantments:blocks/barrier",
+    "north": "oaksenchantments:blocks/barrier",
+    "east": "oaksenchantments:blocks/barrier",
+    "south": "oaksenchantments:blocks/barrier",
+    "west": "oaksenchantments:blocks/barrier",
+    "particle": "oaksenchantments:blocks/barrier"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "advancements.uncivilised_times.title"
+    },
+    "description": {
+      "translate": "advancements.uncivilised_times.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uncivilised_times": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:nether/ride_strider_in_overworld_lava"
+}

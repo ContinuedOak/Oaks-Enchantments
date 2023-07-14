@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.slept_like_a_god.title"
+    },
+    "description": {
+      "translate": "advancements.slept_like_a_god.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "slept_like_a_god": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "oaksenchantments:all_well_rested"
+}

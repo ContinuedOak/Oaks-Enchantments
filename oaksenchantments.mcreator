@@ -1,0 +1,1366 @@
+{
+  "mod_elements": [
+    {
+      "name": "MiningHammer",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/MiningHammerEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "AutoSmelter",
+      "type": "enchantment",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/AutoSmelterEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "AutoSmelterProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/AutoSmelterProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "MiningHammerProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_hammer_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/MiningHammerProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "RestfulSleep",
+      "type": "enchantment",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restful_sleep",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/RestfulSleepEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "RestfulSleepProcedure",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restful_sleep_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/RestfulSleepProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "RabbitsJump",
+      "type": "enchantment",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbits_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/RabbitsJumpEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "RabbitsJumpProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbits_jump_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/RabbitsJumpProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "Souls",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souls",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/item/SoulsItem.java",
+          "src/main/resources/assets/oaksenchantments/models/item/souls.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "GrimReaper",
+      "type": "enchantment",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grim_reaper",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/GrimReaperEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "SoulPickUpProcedure",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_pick_up_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/SoulPickUpProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "LightWeightProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_weight_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/LightWeightProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "LightWeight",
+      "type": "enchantment",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_weight",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/LightWeightEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "ThermalWalkerbreakstage0",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oaksenchantments/models/item/thermal_walkerbreakstage_0.json",
+          "src/main/resources/assets/oaksenchantments/models/block/thermal_walkerbreakstage_0.json",
+          "src/main/java/com/oakmods/oaksenchantments/block/ThermalWalkerbreakstage0Block.java",
+          "src/main/resources/assets/oaksenchantments/blockstates/thermal_walkerbreakstage_0.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage1",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oaksenchantments/models/block/thermal_walkerbreakstage_1.json",
+          "src/main/java/com/oakmods/oaksenchantments/block/ThermalWalkerbreakstage1Block.java",
+          "src/main/resources/assets/oaksenchantments/models/item/thermal_walkerbreakstage_1.json",
+          "src/main/resources/assets/oaksenchantments/blockstates/thermal_walkerbreakstage_1.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage2",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oaksenchantments/models/block/thermal_walkerbreakstage_2.json",
+          "src/main/java/com/oakmods/oaksenchantments/block/ThermalWalkerbreakstage2Block.java",
+          "src/main/resources/assets/oaksenchantments/blockstates/thermal_walkerbreakstage_2.json",
+          "src/main/resources/assets/oaksenchantments/models/item/thermal_walkerbreakstage_2.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage3",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/block/ThermalWalkerbreakstage3Block.java",
+          "src/main/resources/assets/oaksenchantments/models/item/thermal_walkerbreakstage_3.json",
+          "src/main/resources/assets/oaksenchantments/blockstates/thermal_walkerbreakstage_3.json",
+          "src/main/resources/assets/oaksenchantments/models/block/thermal_walkerbreakstage_3.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage0UpdateTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_0_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/ThermalWalkerbreakstage0UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage1UpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_1_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/ThermalWalkerbreakstage1UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage2UpdateTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_2_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/ThermalWalkerbreakstage2UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerbreakstage3UpdateTick",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walkerbreakstage_3_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/ThermalWalkerbreakstage3UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ThermalWalkerProcedure",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walker_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/ThermalWalkerProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "ThermalWalker",
+      "type": "enchantment",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermal_walker",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/ThermalWalkerEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "GraveDiggerProcedure",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grave_digger_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/GraveDiggerProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "GraveDigger",
+      "type": "enchantment",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grave_digger",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/GraveDiggerEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "IlluminationProcedure",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illumination_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/IlluminationProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "Illumination",
+      "type": "enchantment",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illumination",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/IlluminationEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "CultivatorProcedure",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultivator_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CultivatorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "Cultivator",
+      "type": "enchantment",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultivator",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/CultivatorEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "CultivatorSpadeProcedure",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultivator_spade_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CultivatorSpadeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "CultivatorBootsProcedure",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultivator_boots_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CultivatorBootsProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "UncivilisedTimes",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncivilised_times",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oaksenchantments/advancements/uncivilised_times.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "Collection2Procedure",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collection_2_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/Collection2ProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "Blades",
+      "type": "enchantment",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blades",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/BladesEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "AllWellRested",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_well_rested",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oaksenchantments/advancements/all_well_rested.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "SleptLikeAGod",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slept_like_a_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oaksenchantments/advancements/slept_like_a_god.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "AntiVenom",
+      "type": "enchantment",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_venom",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/AntiVenomEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "AntiVemonProcedure",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_vemon_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/AntiVemonProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "CloudBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/block/CloudBlockBlock.java",
+          "src/main/resources/assets/oaksenchantments/models/block/cloud_block.json",
+          "src/main/resources/assets/oaksenchantments/models/item/cloud_block.json",
+          "src/main/resources/assets/oaksenchantments/blockstates/cloud_block.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CloudBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CloudBlockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CloudBlockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CloudBlockEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Cosiness",
+      "type": "enchantment",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosiness",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/CosinessEnchantment.java"
+        ]
+      },
+      "path": "~/release"
+    },
+    {
+      "name": "CosinessProcedure",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosiness_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CosinessProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "PoisonTipped",
+      "type": "enchantment",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_tipped",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/PoisonTippedEnchantment.java"
+        ]
+      },
+      "path": "~/Update 1.1"
+    },
+    {
+      "name": "CurseOfGreed",
+      "type": "enchantment",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_greed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/CurseOfGreedEnchantment.java"
+        ]
+      },
+      "path": "~/Update 1.1"
+    },
+    {
+      "name": "CurseofGreedProcedure",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseof_greed_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CurseofGreedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Update 1.1"
+    },
+    {
+      "name": "PoisonTippedProcedure",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_tipped_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/PoisonTippedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Update 1.1"
+    },
+    {
+      "name": "CurseOfBlaze",
+      "type": "enchantment",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_blaze",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/CurseOfBlazeEnchantment.java"
+        ]
+      },
+      "path": "~/Update 0.2.1"
+    },
+    {
+      "name": "PiratesLuck",
+      "type": "enchantment",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirates_luck",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/PiratesLuckEnchantment.java"
+        ]
+      },
+      "path": "~/Update 0.2.1"
+    },
+    {
+      "name": "PiratesLuckProcedure",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirates_luck_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/PiratesLuckProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Update 0.2.1/Procedure"
+    },
+    {
+      "name": "LuckyFind",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_find",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oaksenchantments/advancements/lucky_find.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "CurseOfBlazeProcedure",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_blaze_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/CurseOfBlazeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Update 0.2.1/Procedure"
+    },
+    {
+      "name": "AutoSmeltingFortune",
+      "type": "enchantment",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelting_fortune",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/AutoSmeltingFortuneEnchantment.java"
+        ]
+      },
+      "path": "~/update 0.3.0"
+    },
+    {
+      "name": "AutoSmeltingFortuneProcedure",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelting_fortune_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/AutoSmeltingFortuneProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/update 0.3.0"
+    },
+    {
+      "name": "AquaAspect",
+      "type": "enchantment",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_aspect",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/enchantment/AquaAspectEnchantment.java"
+        ]
+      },
+      "path": "~/update 0.3.0"
+    },
+    {
+      "name": "AquaAspectProcedure",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_aspect_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/oaksenchantments/procedures/AquaAspectProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/update 0.3.0"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "enchantment.oaksenchantments.grim_reaper.desc": "When picking up XP, player has a chance to regenerate health.",
+      "enchantment.oaksenchantments.light_weight": "Light Weight",
+      "enchantment.oaksenchantments.grim_reaper": "Grim Reaper",
+      "enchantment.oaksenchantments.pirates_luck": "Pirates Luck",
+      "enchantment.oaksenchantments.anti_venom": "Anti-Venom",
+      "enchantment.oaksenchantments.poised_tipped.desc": "Tip your sword with poisen.",
+      "enchantment.oaksenchantments.auto_smelter": "Auto Smelter",
+      "enchantment.oaksenchantments.thermal_walker.desc": "Allows you to walk on lava.",
+      "enchantment.oaksenchantments.restful_sleep": "Restful Sleep",
+      "item.oaksenchantments.souls": "Souls",
+      "enchantment.oaksenchantments.blades": "Blades",
+      "block.oaksenchantments.cloud_block": "Cloud Block",
+      "enchantment.oaksenchantments.curse_of_blaze": "Curse of Blaze",
+      "enchantment.oaksenchantments.cultivator": "Cultivator",
+      "enchantment.oaksenchantments.grave_digger.desc": "Receive some loot when destroying a spawner.",
+      "enchantment.oaksenchantments.cosiness": "Cosiness",
+      "enchantment.oaksenchantments.curse_of_greed.desc": "If attact with mending, breaking blocks have 25% chance of 1 damage.",
+      "advancements.uncivilised_times.descr": "Using Thermal Walker, try and walk on lava",
+      "enchantment.oaksenchantments.grave_digger": "Grave Digger",
+      "advancements.lucky_find.descr": "Find a diamond in dirt or sand.  (0.006)",
+      "advancements.all_well_rested.title": "All Well Rested",
+      "enchantment.oaksenchantments.cultivator.desc": "Till 3x3 farmland",
+      "enchantment.oaksenchantments.illumination": "Illumination",
+      "enchantment.oaksenchantments.auto_smelter.desc": "Automaticly smelts any block.",
+      "enchantment.oaksenchantments.aqua_aspect": "Aqua Aspect",
+      "enchantment.oaksenchantments.rabbits_jump": "Rabbits Jump",
+      "enchantment.oaksenchantments.aqua_aspect.desc": "Deals higher damage to Water/Aquatic Creatures",
+      "advancements.slept_like_a_god.title": "Slept Like A God",
+      "enchantment.oaksenchantments.pirates_luck.desc": "When digging sand or dirt in a beach you might find some loot.",
+      "enchantment.oaksenchantments.auto_smelting_fortune": "Auto Smelting Fortune",
+      "advancements.uncivilised_times.title": "Uncivilised Times!",
+      "enchantment.oaksenchantments.mining_hammer.desc": "Mines 3x3.",
+      "enchantment.oaksenchantments.curse_of_greed": "Curse of Greed",
+      "enchantment.oaksenchantments.auto_smelting_fortune.desc": "Like a Furnace but with Fortune",
+      "enchantment.oaksenchantments.poison_tipped": "Poison Tipped",
+      "death.attack.zombification": "%s died by the virus",
+      "enchantment.oaksenchantments.illumination.desc": "Applies Night Vision when its dark.",
+      "enchantment.oaksenchantments.light_weight.desc": "No more fall damage, but its a slow fall down.",
+      "enchantment.oaksenchantments.thermal_walker": "Thermal Walker",
+      "enchantment.oaksenchantments.mining_hammer": "Mining Hammer",
+      "advancements.slept_like_a_god.descr": "You slept with two totems with Restful sleep",
+      "enchantment.oaksenchantments.curse_of_blaze.desc": "Burn baby Burn!",
+      "enchantment.oaksenchantments.restful_sleep.desc": "Gives Regen, and Saturation when waking up with totems.",
+      "block.oaksenchantments.thermal_walkerbreakstage_3": "Thermal Walker",
+      "block.oaksenchantments.thermal_walkerbreakstage_2": "Thermal Walker",
+      "advancements.lucky_find.title": "Lucky Find",
+      "block.oaksenchantments.thermal_walkerbreakstage_1": "Thermal Walker",
+      "block.oaksenchantments.thermal_walkerbreakstage_0": "Thermal Walker",
+      "advancements.all_well_rested.descr": "Sleep with a totem with Restful Sleep Enchantment.",
+      "enchantment.oaksenchantments.rabbits_jump.desc": "Jump like a Rabbit.",
+      "enchantment.oaksenchantments.anti_venom.desc": "Removes Any Poisen"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Code",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "DebugUSE",
+        "children": []
+      },
+      {
+        "name": "Achivments",
+        "children": []
+      },
+      {
+        "name": "Loot",
+        "children": []
+      },
+      {
+        "name": "Update 1.1",
+        "children": []
+      },
+      {
+        "name": "Update 0.2.1",
+        "children": [
+          {
+            "name": "Procedure",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "release",
+        "children": []
+      },
+      {
+        "name": "update 0.3.0",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "oaksenchantments",
+    "modName": "OaksEnchantments",
+    "version": "0.3.0",
+    "description": "Oaks Enchantments is a lightweight enchantment expanding mod, with the goal of adding new enchantments to Minecraft.  Currently adding 11+ enchantments that will change the way you play Minecraft.",
+    "author": "Continued Oak",
+    "websiteURL": "https://oakmods.com",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "ElementHype, Telepathicgrunt, 1Kazutho",
+    "modElementsPackage": "com.oakmods.oaksenchantments",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
